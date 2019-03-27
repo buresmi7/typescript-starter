@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "es2015",
+    "sourceMap": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "baseUrl": "./",
+    "pretty": true,
+    "declaration": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "skipLibCheck": true,
+    "outDir": "./.dist/",
+    "jsx": "preserve"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
